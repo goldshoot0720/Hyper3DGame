@@ -1,0 +1,17 @@
+node_modules/
+dist/
+
+# Rodin 下載的壓縮檔暫存區，跑 npm run import 之後就會被搬到專案外
+incoming/
+
+# three 附帶的 Draco 解碼器，由 postinstall 自動複製
+public/draco/
+
+# Claude Code 的本機設定
+.claude/settings.local.json
+
+# 編輯器 / 系統
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
